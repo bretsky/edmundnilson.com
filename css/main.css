@@ -1,0 +1,138 @@
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+   padding: 0px;
+   margin: 0px;
+}
+
+h2 { 
+   position: fixed; 
+   top: 8vh; 
+   left: 0; 
+   width: 100%; 
+   letter-spacing: 0.02em;
+}
+
+h2 span { 
+   color: white; 
+   font: bold 6vw/12vw title; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); 
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+   letter-spacing: 0.02em;
+}
+
+h1 {
+   font: bold 32px/100% title;
+   text-align: center;
+   margin-left: 10px;
+   margin-right: 10px;
+   letter-spacing: 0.02em;
+}
+
+.biotitle {
+   font: bold 20px/100% title;
+   letter-spacing: 0.02em;
+}
+
+hr.sep {
+   border-top: 2px solid;
+   border-right: none;
+   border-left: none;
+   border-bottom: none;
+   width: 80%;
+}
+
+hr.sep:before {
+   display: block;
+   content: "";
+   margin-top: -12px;
+   margin-left: 12px;
+   margin-right: 12px;
+   border-left: 2px solid;
+   height: 22px;
+   border-right: 2px solid;
+}
+
+.navbar {
+   display: block;
+   margin: 30px;
+   margin-top: 11px;
+   text-align: center;
+   height: auto;
+   padding: auto;
+}
+
+.navbtn {
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-family: body;
+  color: #ffffff;
+  font-size: 16px;
+  background: #4D54C8;
+  opacity: 0.8;
+  padding: 10px 10px 10px 10px;
+  border: solid #000000 2px;
+  text-decoration: none;
+}
+
+.navbtn:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+
+.table {
+   display: table;
+   margin: auto;
+   width: 90%;
+   border-spacing:15px;
+}
+
+.col {
+   width: 30%;
+   display: table-cell;
+   vertical-align: top;
+}
+
+.widecol {
+   width: 70%;
+   display: table-cell;
+}
+
+.cell {
+   display: block;
+   padding: 10px;
+   border: 1px solid blue;
+   margin-bottom: 15px;
+   color: #ffffff;
+   background-color: #4D54C8;
+   opacity: 0.8;
+   font-family: body;
+}
+
+a:link {
+   text-decoration: none;
+}
+
+.cell:hover {
+   opacity: 1;
+}
+
+.imagepanel {
+   max-width: 100%;
+   max-height: 100%;
+}
+
+@font-face {
+    font-family: title;
+    src: url("fonts/FjallaOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: body;
+    src: url("fonts/Average-Regular.ttf") format("truetype");
+}
