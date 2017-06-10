@@ -34,9 +34,10 @@ h2 span {
 h1 {
    font: bold 32px/100% title;
    text-align: center;
-   margin-left: 10%;
-   margin-right: 10%;
    letter-spacing: 0.02em;
+   margin: 0px;
+   padding-left: 8%;
+   padding-right: 8%;
 }
 
 .biotitle {
@@ -49,7 +50,9 @@ hr.sep {
    border-right: none;
    border-left: none;
    border-bottom: none;
-   width: 90%;
+   width: 104%;
+   margin-left: -2%;
+   margin-top: 0px
 }
 
 hr.sep:before {
@@ -75,6 +78,32 @@ hr.sep:before {
    display: block;
 }
 
+.watermark {
+   position: absolute;
+   top: 0px;
+   left: 6%;
+   width: 88%;
+   margin: auto;
+   height: auto;
+   display: block;
+   background-image: url(../images/CrestBackgroundSmall.png);
+   background-position: 0px 0px;
+   background-repeat: repeat;
+   background-attachment: scroll;
+   -webkit-background-size: 16.6666%;
+   -moz-background-size: 16.6666%;
+   -o-background-size: 16.6666%;
+   background-size: 16.6666%;
+   height: 100%;
+}
+
+.banner {
+   width: 100%;
+   background-color: #ffffff;
+   padding-bottom: 21px;
+   padding-top: 21px;
+}
+
 .navbar {
    display: block;
    margin: 30px;
@@ -93,8 +122,7 @@ hr.sep:before {
   font-family: body;
   color: #ffffff;
   font-size: 16px;
-  background: #4D54C8;
-  opacity: 0.8;
+  background: #7176d3;
   padding: 10px 10px 10px 10px;
   border: solid #000000 2px;
   text-decoration: none;
@@ -102,13 +130,13 @@ hr.sep:before {
 
 .navbtn:hover {
   text-decoration: none;
-  opacity: 1;
+  background: #4D54C8;
 }
 
 .table {
    display: table;
    margin: auto;
-   width: 88%;
+   width: 100%;
    border-spacing: 15px;
    overflow: 
 }
@@ -130,9 +158,12 @@ hr.sep:before {
    border: 1px solid blue;
    margin-bottom: 15px;
    color: #ffffff;
-   background-color: #4D54C8;
-   opacity: 0.8;
+   background-color: #7176d3;
    font-family: body;
+}
+
+a .cell:hover {
+   background-color: #4D54C8;
 }
 
 a:link {
