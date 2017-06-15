@@ -12,6 +12,6 @@ def choose_quote():
 	return random.choice(quotes)
 
 def generate_html(quote):
-	return unicode("""<span id="quotetext">&quot;{}&quot;</span><br><span class="quoteauthor" id="author" style="float:right">&mdash;{}</span>""").format(quote[0], quote[1])
+	return unicode("""<div class="quote">&quot;{}&quot;</div><span class="quoteauthor">&mdash;{}</span>""").format(quote[0], quote[1])
 
 print generate_html(choose_quote()).encode("utf-8")

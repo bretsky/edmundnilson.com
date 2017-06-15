@@ -29,12 +29,33 @@ h2 span {
 }
 
 h1 {
-   font: bold 32px/100% title;
+   font: bold 32px title;
    text-align: center;
    letter-spacing: 0.02em;
    margin: 0px;
    padding-left: 8%;
    padding-right: 8%;
+}
+
+.subtitle {
+  font: bold 16px body;
+  letter-spacing: 0.04em;
+}
+
+.quote {
+  font-style: italic;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.quoteauthor {
+  text-align:right;
+  float:right; 
+  margin-left:33%;
+}
+
+.cite {
+  font-style: italic;
 }
 
 .biotitle {
