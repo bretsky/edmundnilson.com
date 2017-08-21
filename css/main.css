@@ -48,6 +48,10 @@ h1 {
   margin-right: 2em;
 }
 
+.panelquote {
+  font-style: italic;
+}
+
 .quoteauthor {
   text-align:right;
   float:right; 
